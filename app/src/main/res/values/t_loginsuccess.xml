@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="logsuccess">
+        <item name="stTextBold">true</item>
+        <item name="stTextColor">#000</item>
+        <item name="stTextSize">16dp</item>
+        <item name="stColorBackground">#BFFFBD</item>
+        <item name="stStrokeColor">#2CBC4E</item>
+        <item name="stStrokeWidth">2dp</item>
+        <item name="stIconStart">@drawable/ic_checkcircle</item>
+        <item name="stLength">LONG</item>
+    </style>
+</resources>

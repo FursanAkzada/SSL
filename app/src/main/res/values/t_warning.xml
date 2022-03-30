@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="warning">
+        <item name="stTextBold">true</item>
+        <item name="stTextColor">#000</item>
+        <item name="stTextSize">16dp</item>
+        <item name="stColorBackground">#FFF6BD</item>
+        <item name="stStrokeColor">@android:color/holo_orange_light</item>
+        <item name="stStrokeWidth">2dp</item>
+        <item name="stIconStart">@drawable/ic_war</item>
+        <item name="stLength">LONG</item>
+    </style>
+</resources>

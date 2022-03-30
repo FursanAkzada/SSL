@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="confailed">
+        <item name="stTextBold">true</item>
+        <item name="stTextColor">#000</item>
+        <item name="stTextSize">16dp</item>
+        <item name="stColorBackground">#FC685D</item>
+        <item name="stStrokeColor">#FF0000</item>
+        <item name="stStrokeWidth">2dp</item>
+        <item name="stIconStart">@drawable/ic_signaloff</item>
+        <item name="stLength">LONG</item>
+    </style>
+</resources>

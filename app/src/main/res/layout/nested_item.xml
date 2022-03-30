@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cardView"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardElevation="1dp"
+    android:layout_margin="8dp"
+    android:padding="5dp"
+    android:backgroundTint="@color/zxing_transparent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/nestedItemTv"
+        android:text="Grocery and Stationary"
+
+        android:background="@drawable/et_faq"
+        android:textColor="#000000"
+        android:textSize="14dp"
+        android:padding="10dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        />
+</androidx.cardview.widget.CardView>

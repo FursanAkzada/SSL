@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/drawer_layout"
+    tools:context=".about"
+    android:background="@drawable/main">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <include
+            layout="@layout/main_toolbar"/>
+
+        <ScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="0dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="12dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="155dp"
+                    android:fontFamily="sans-serif-black"
+                    android:text="About Us"
+                    android:textColor="#000000"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="45dp"
+                    android:fontFamily="sans-serif-medium"
+                    android:text="Created on January - March, 2022"
+                    android:textColor="#000000"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="75dp"
+                    android:fontFamily="sans-serif-medium"
+                    android:text="Mentor : 1. Bima Sena Bayu Dewantara (PENS)"
+                    android:textColor="#000000"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="105dp"
+                    android:fontFamily="sans-serif-medium"
+                    android:text="                2. Donny Firman (PT. Panasonic)"
+                    android:textColor="#000000"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="135dp"
+                    android:fontFamily="sans-serif-medium"
+                    android:text="Developer : "
+                    android:textColor="#000000"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="165dp"
+                    android:fontFamily="sans-serif-medium"
+                    android:text="1. Fursan Akzada "
+                    android:textColor="#000000"
+                    android:textSize="16sp" />
+
+                <com.zolad.zoominimageview.ZoomInImageView
+                    android:layout_width="107dp"
+                    android:layout_height="106dp"
+                    android:layout_marginLeft="250dp"
+                    android:layout_marginTop="140dp"
+                    android:src="@drawable/fursan" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="17dp"
+                    android:layout_marginTop="185dp"
+                    android:fontFamily="sans-serif-medium"
+                    android:text="Computer Engineering 2019 "
+                    android:textColor="#3F51B5"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="17dp"
+                    android:layout_marginTop="205dp"
+                    android:fontFamily="sans-serif-medium"
+                    android:text="fursanakzada@gmail.com"
+                    android:textColor="#3F51B5"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="17dp"
+                    android:layout_marginTop="225dp"
+                    android:fontFamily="sans-serif-medium"
+                    android:text="083857764633"
+                    android:textColor="#3F51B5"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="260dp"
+                    android:fontFamily="sans-serif-medium"
+                    android:text="2. Meisin Caturwandira "
+                    android:textColor="#000000"
+                    android:textSize="16sp" />
+
+                <com.zolad.zoominimageview.ZoomInImageView
+                    android:layout_width="125dp"
+                    android:layout_height="113dp"
+                    android:layout_marginLeft="232dp"
+                    android:layout_marginTop="230dp"
+                    android:src="@drawable/mei" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="17dp"
+                    android:layout_marginTop="281dp"
+                    android:fontFamily="sans-serif-medium"
+                    android:text="Computer Engineering 2019 "
+                    android:textColor="#3F51B5"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="17dp"
+                    android:layout_marginTop="301dp"
+                    android:fontFamily="sans-serif-medium"
+                    android:text="meisincw@gmail.com"
+                    android:textColor="#3F51B5"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="17dp"
+                    android:layout_marginTop="321dp"
+                    android:fontFamily="sans-serif-medium"
+                    android:text="085812277011"
+                    android:textColor="#3F51B5"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="360dp"
+                    android:fontFamily="sans-serif-medium"
+                    android:text="3. Rafli Akbar Prakoso"
+                    android:textColor="#000000"
+                    android:textSize="16sp" />
+
+
+                <com.zolad.zoominimageview.ZoomInImageView
+                    android:layout_width="100dp"
+                    android:layout_height="95dp"
+                    android:layout_marginLeft="243dp"
+                    android:layout_marginTop="360dp"
+                    android:src="@drawable/rap" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="17dp"
+                    android:layout_marginTop="380dp"
+                    android:fontFamily="sans-serif-medium"
+                    android:text="Computer Engineering 2019 "
+                    android:textColor="#3F51B5"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="17dp"
+                    android:layout_marginTop="400dp"
+                    android:fontFamily="sans-serif-medium"
+                    android:text="rafliakbar1692@gmail.com"
+                    android:textColor="#3F51B5"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="17dp"
+                    android:layout_marginTop="420dp"
+                    android:fontFamily="sans-serif-medium"
+                    android:text="082139117161"
+                    android:textColor="#3F51B5"
+                    android:textSize="16sp" />
+
+                <ImageView
+                    android:id="@+id/telegram"
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:layout_marginLeft="80dp"
+                    android:layout_marginTop="560dp"
+                    android:src="@drawable/tele" />
+
+                <ImageView
+                    android:id="@+id/instagram"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_marginLeft="150dp"
+                    android:layout_marginTop="550dp"
+                    android:src="@drawable/ig" />
+
+                <ImageView
+                    android:id="@+id/facebook"
+                    android:layout_width="40dp"
+                    android:layout_height="35dp"
+                    android:layout_marginLeft="250dp"
+                    android:layout_marginTop="565dp"
+                    android:src="@drawable/fb" />
+            </RelativeLayout>
+        </ScrollView>
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="300dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="end"
+        android:background="@color/white"
+        tools:ignore="MissingConstraints">
+
+        <include
+            layout="@layout/main_nav_drawer"/>
+    </RelativeLayout>
+
+</androidx.drawerlayout.widget.DrawerLayout>

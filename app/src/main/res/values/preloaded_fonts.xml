@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/amaranth</item>
+        <item>@font/caladea</item>
+        <item>@font/caveat_brush</item>
+        <item>@font/chelsea_market</item>
+        <item>@font/chewy</item>
+        <item>@font/chonburi</item>
+        <item>@font/gabriela</item>
+        <item>@font/yusei_magic</item>
+    </array>
+</resources>

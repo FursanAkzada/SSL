@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp">
+
+        <ImageView
+            android:layout_width="48dp"
+            android:layout_height="50dp"
+            android:src="@drawable/pens1"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="23dp"/>
+
+        <ImageView
+            android:layout_width="45dp"
+            android:layout_height="43dp"
+            android:layout_marginStart="68dp"
+            android:layout_marginTop="23dp"
+            android:background="@drawable/tekkom1" />
+
+        <ImageView
+            android:id="@+id/toggleButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="295dp"
+            android:layout_marginTop="35dp"
+            android:padding="0dp"
+            android:src="@drawable/ic_power" />
+
+        <ImageView
+            android:id="@+id/bt_menu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="345dp"
+            android:layout_marginTop="35dp"
+            android:padding="0dp"
+            android:src="@drawable/ic_menu" />
+    </RelativeLayout>
+</LinearLayout>
